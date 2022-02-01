@@ -1,0 +1,64 @@
+/*Aqui van los estilos del Footer*/
+
+/*Contenedor Padre*/
+.Footer {
+  width: auto;
+  height: 5vh;
+  background-color: rgb(94, 94, 94);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  letter-spacing: 0.9px;
+  font-size: 0.8em;
+  align-items: center;
+}
+
+/*Contenedor Padre Made in*/
+.Madein {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Madein > a {
+  margin-left: 0.5em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.Heart {
+  align-items: center;
+  margin-left: 0.5em !important;
+}
+
+.ReedesSociales {
+  display: flex;
+  margin-left: 1em;
+}
+
+.SocialIcon {
+  margin-left: 1.5em;
+}
+
+.SocialIcon:hover {
+  color: #da238f;
+}
+
+/*//////////////////////////////////*/
+/*//////////////////////////////////*/
+/*//////////////////////////////////*/
+/*Aqui van las mediaquerys*/
+
+/*ipad*/
+
+@media screen and (max-width: 820px) {
+}
+
+/*Mobile*/
+@media screen and (max-width: 420px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+  }
+}

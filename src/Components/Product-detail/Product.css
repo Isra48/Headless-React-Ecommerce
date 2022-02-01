@@ -1,0 +1,144 @@
+.button_back {
+  padding: 3em;
+
+  margin-top: 20px;
+  color: #da238f;
+}
+
+.main_container_card_product {
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 2em;
+  max-width: 100%;
+  width: 20%;
+}
+
+.container_card_product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_card_product {
+  width: 100%;
+}
+
+.container_price_card_product {
+  text-align: right;
+}
+
+.product_title_card {
+  text-align: right;
+  font-size: 20px;
+  color: red;
+}
+
+.product_price_card {
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+  margin-top: 5px;
+}
+
+/*Estilos de detalle de producto*/
+.main_container_details {
+  min-height: 80vh;
+  display: flex;
+  justify-self: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 1900px;
+}
+.image_container_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 50vh;
+}
+.img_product_details {
+  width: 40%;
+}
+
+.details_price {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.details_title {
+  font-size: 35px;
+}
+
+.btn_details {
+  margin-top: 2em;
+  width: 200px;
+  height: 50px;
+  border: solid 1px #f2f2f2;
+  color: #f2f2f2;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #da238f;
+}
+
+.details_description {
+  width: 95%;
+}
+
+/*//////////////////////////////////*/
+/*//////////////////////////////////*/
+/*//////////////////////////////////*/
+/*Aqui van las mediaquerys*/
+
+/*ipad*/
+@media screen and (max-width: 820px) {
+  .image_container_details {
+    width: 95%;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 420px) {
+  .main_container_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .main_container_card_product {
+    width: 100%;
+  }
+
+  .img_product_details {
+    width: 90%;
+  }
+
+  .description_container_details {
+    justify-content: center;
+  }
+  .image_card_product {
+    width: 80%;
+    justify-content: center;
+  }
+
+  .container_price_card_product {
+    text-align: center;
+  }
+
+  .product_title_card {
+    text-align: center;
+  }
+
+  .product_price_card {
+    text-align: center;
+  }
+  .button_back {
+    margin-top: 5em !important;
+    color: #da238f;
+  }
+}

@@ -1,0 +1,30 @@
+.main_products_container {
+  display: flex;
+  width: 100%;
+}
+
+.products_list_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.h1Products {
+  text-align: center;
+  border-bottom: solid 0.5px #505050;
+  padding: 1em;
+  margin: 0em 3em 0em 3em;
+}
+
+/*//////////////////////////////////*/
+/*//////////////////////////////////*/
+/*//////////////////////////////////*/
+/*Aqui van las mediaquerys*/
+
+/*Mobile*/
+@media screen and (max-width: 420px) {
+  .h1Products {
+    font-size: 1.5em;
+    margin: 0em 1em 0em 1em;
+  }
+}
